@@ -3,8 +3,6 @@ L'objectif est de construire un modèle capable de déterminer la langue à laqu
 Pour cela, le modèle sera entraîné à partir de séquences de lettres correspondant à différentes langues. 
 Il devra ensuite prédire la langue d’un mot en fonction de sa structure et des régularités linguistiques apprises.
 
-
-
  Vous trouverez les fichiers suivants :
 - french.txt : fichier texte contenant le corpus de mots en français.
 - english.txt : fichier texte contenant le corpus de mots en anglais.
@@ -14,3 +12,6 @@ d'émission des lettres dans les différents états (modélisant des erreurs ou 
 lecture/écriture des lettres).
 - texte_1.txt, texte_2.txt et texte_3.txt : ces fichiers texte contiennent des textes échantillons dont la
 langue devra être reconnue par le modèle HMM.
+
+
+les différentes  méthodes ont été implémenté et éxcuté respectivement dans les fichiers HMM_methods.py et HMM_main.py
